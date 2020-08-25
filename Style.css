@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    transform-style: preserve-3d;
+    overflow-y:scroll;
+}
+*{
+    text-decoration:none;
+}
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    right: 0;
+    left:0;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+
+}
+.nav .links a {
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+} 
+#header{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url('bg.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#header2{
+    box-sizing: border-box;
+    height: 50vh;
+    background-image: url("sol1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+
+   
+
+.banner{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 0 10vw 0 10vw;
+    height:100vh;
+}
+.bannerText{
+    max-width: 320px;
+    margin-top: 220px;
+    line-height: 50px;
+    text-align: left;
+    opacity: 0.3px;
+}
+.bannerText h1{
+ font-size: 40px ;
+ opacity: 0.8;
+    margin:0;
+}
+
+.bannerText p{
+    margin:6px;
+    font-size:26px;
+    line-height: 30px;
+}
+ .bannerText .btn{
+    max-width: 180px;
+    margin-top: 20px;
+    background: #47a86c;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn a{
+    color:white;
+  text-transform: uppercase;
+}
+/*Me banner*/
+#header3{
+    box-sizing: border-box;
+    height: 90vh;
+    background-image: url("me.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+.banner1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 0 10vw 0 10vw;
+    height:100vh;
+}
+.bannerText1{
+    max-width: 300px;
+    margin-top: 170px;
+    line-height: 50px;
+    text-align: left;
+    opacity: 0.3px;
+}
+.bannerText1 h1{
+ font-size: 36px ;
+ opacity: 0.8;
+    margin:0;
+}
+
+.bannerText1 p{
+    margin:6px;
+    font-size:24px;
+    line-height: 30px;
+}
+.meText {
+    max-width: 90%;
+    margin-left:60px;
+    margin-right: 20px;
+    font-size: 23px;
+margin-bottom: 30px;}
+    
+/*about */
+
+#about {
+    margin-top: 20px;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+ .left-col {
+     flex-basis: 45%;
+ }
+ .left-col img{
+     width: 100%;
+     margin-left: 30px;
+     margin-top: 10px;
+ }
+ .right-col{
+     flex-basis: 50%;
+     }
+.aboutText{
+    text-align: right;
+    font-size: 22px;}
+    
+    /*info solutions*/
+
+    #goal {
+        padding: 20px 0;
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         flex-direction: row;
+     }
+     .g-left-col {
+         flex-basis: 50%;
+     }
+     .goalText{
+        text-align: center;
+        font-size: 22px;
+        margin-left: 30px;
+    }
+     .g-right-col{
+         flex-basis: 45%;
+     }
+     .g-right-col img{
+        width: 100%;}
+    
+    .bottom{
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+
+/*list of problems*/
+
+#problems {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.prHeading {
+    text-align: center;
+}
+.pr-row {
+    width: 80%;
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;}
+
+.problem {
+    flex-basis: 25%;
+    text-align: center;
+}
+ .problem p {
+    line-height: 20px;
+    font-size: 18px;
+    
+ }
+ .problem h3 {
+    line-height: 20px;
+ }
+
+
+.one {width: 200px;
+ position: relative;
+padding: 30px 0 20px 0;}
+
+.two {width: 200px;
+     position: relative;
+padding: 70px 0 20px 0; }
+
+.three {width: 200px;
+        position: relative;
+padding: 60px 0 20px 0;   }
+
+.four {width: 200px;
+    margin-left: 80px;
+        position: relative;
+padding: 20px 0 20px 0;   }
+
+.five {width: 200px;
+        position: relative;
+padding: 80px 0 20px 0;   }
+
+.six
+{width: 200px;
+        position: inherit;
+padding: -10px 0 20px 0;   }
+
+/*Footer*/
+.footer{
+    height: 160px;
+    background-color: #ffd170;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerText h2{
+    top: -50px;
+    font-size: 3vw ;
+    color : #ffffff;
+    position: relative;}
+
+.rating {
+    position: absolute;
+    top: auto;
+    transform: translate(-50% -50%) rotateY(180deg);
+    display: flex;
+}    
+.rating input{
+    display: none;
+}
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    padding-left: 10px;
+}
+.rating label::before {
+    content: '\f005';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: relative;
+    display: block;
+    font-size: 40px;
+    color: #1d1c1c;
+}
+.rating label ::after {
+    content: '\f005' ;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    display: block;
+    color:silver;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rating label:hover::after ,
+.rating input:checked ~ .label::after ,
+.rating input:checked ~ .label::after 
+ {
+    opacity: 1;
+}
+
+
+/* Solutions*/
+
+.sol{
+    height:600px;
+    padding: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.solText {
+    position: relative;
+    align-items: center;
+    height:inherit;
+}
+.solText h2 {
+    position: relative;
+    align-items: center;
+    top:20px;
+    opacity: 0.8;
+}
+ .si {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top:50px;
+}
+.solList {
+    width:60%;
+    padding-left: 130px;
+}
+ol{
+    list-style:none ;
+    color: lightgreen;
+}
+ol li:hover{
+    transform: rotate(1.4);
+}
+ ol li {
+     font-size: 26px ;
+     position: relative;
+     margin-bottom: 20px;
+     cursor: pointer;
+ }
+  li p{
+      font-size:20px;
+      padding-left: 40px;
+      line-height: 20px;
+      color: black;
+  }
+  li span{
+      position: absolute;
+      line-height: 25px;
+      font-feature-settings: 600;
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+      .sol {
+          height: auto;
+          padding: 0px;
+          display: flex;
+          flex-direction:column ;
+          justify-content: center ;
+          align-items: center;
+      }
+      .solText{
+          padding: 0 50px;
+          height: 100px;
+      }
+      .solText h1 {
+          left:40px;
+          font-size: 5vw;}
+      .si {
+          width: 40vw;
+          height: 40vw;
+          top: 200px;
+          left: -10px;
+         
+      }  
+      .solList {
+          width: 75%;
+      }
+      ol li {
+          font-size:20px;
+          margin-left: 50px;
+      }
+      li p {
+          font-size: 14px;
+      }
+      .text1 {
+          font-size: 3vw ;
+          text-align: center;
+      }
+      .problem p {
+          font-size: 3vw;
+        margin-left: -30px;
+     flex-basis: 50%;}
+
+     .aboutText {
+        font-size: 3vw;
+     }
+     .left-col img {
+         margin-left: 5px;
+     }
+     .bannerText h1{
+         font-size: 6vw;
+     }
+     .bannerText p{
+         font-size: 4vw;
+     }
+     .pr-row {
+         justify-content: space-around;
+         flex-direction: column;
+        margin-left: 65px;}
+    
+        iframe{
+            width: 510px;
+            margin-left: -150px;}
+        .videoText{
+            align-items: center;
+            margin-left: -120px;
+            margin-bottom: 20px;}  
+  }
+  @media only screen and (max-width:600px){
+    .nav{
+        flex-direction:column ;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .nav h4{
+        font-size: 6wv;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .nav .links a{
+     margin-right: 25px ;
+     font-size: 12px;
+     font-weight: 600;
+    }
+    .rating {
+        position: absolute;
+       display: flex;
+} 
+.goalText h3{
+    font-size:18px;
+}
+.goalText p{
+    font-size: 16px;}
+}
+    
+    /*Facts*/
+.container {
+    position: relative;
+    width:100%;
+    display: flex;
+    margin: 20px ;
+    margin-top: 50px;
+}
+.container .card {
+    position: relative;
+    height: 220px;
+    background: #f1deb0;
+    width: 20%;
+    margin:10px 30px;
+    align-items: center;
+}
+.container .card .imgBx {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: #648d00;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;}
+
+.container .card:hover .imgBx {
+    width: 120px;
+    height: 120px;
+    left:-75px;
+    top: calc(50% - 70px);
+    transition: 0.5s ease-in-out;
+    background: #c8c86d;
+}    
+.container .card .imgBx img {
+    max-width: 100px;
+    transition: 0.5s ease-in-out;
+}
+.container .card:hover .imgBx img{
+    max-width: 75px;
+}
+.container .card .content{
+    position: absolute;
+    right: 0;
+    width: calc (80%- 75px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px ;
+    font-size: 20px;
+}
+.conText p{
+    margin-top: 50px;
+    align-items: center;
+    font-size: 28px;
+    margin-left: 40%;
+    margin-bottom: -10px;
+}
+
+@media (max-width: 992px)
+{
+    .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+  .container .card {
+      width: 250px;
+  }
+}
+
+
+.video {
+    align-items: center;
+    margin-left: 30%;
+}
+.videoText p{
+    align-items: center;
+    font-size: 29px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+/*Uzb prob*/
+.uzbText {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 90%;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.uzbText h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prText {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 25px;
+}
+
+/*leftover*/
+.food{
+    align-items: center;
+    max-width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;        
+}
+.food h3{
+    font-size: 25px;
+   margin-bottom: 30px;}
+
+.food p {
+    font-size: 20px;
+}    
